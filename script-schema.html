@@ -1,0 +1,20 @@
+
+coucoucoucou
+<script type="text/javascript" src="jquery-3.6.0.min.js">
+    write("coucou");
+function cblog(msg) {
+    $("#msg").append("<br/>"+msg);
+}
+
+$(document).ready(function(){
+    $("#content").click(function() {
+      $point=fetch('https://r207.borelly.net/~u22104211/404Industries/index.php?action=schemaDB&where="STO1"')
+    .then(response => response.json())
+    .then(jsonObj => {cblog('Fetch OK...<br/>'+JSON.stringify(jsonObj));})
+    .then(object => {cblog(JSON.stringify(object));
+        document.getElementById("content").innerHTML = object;
+        document.getElementById("content").innerHTML = "coucou";
+    });
+    });
+})
+</script>

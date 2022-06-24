@@ -1,0 +1,202 @@
+/* 
+############################
+#          NATIVE          #
+############################
+*/
+
+html{
+  background-color: black /*#152528*/;
+  color:#3CB0CD;
+  background-image:url(images/background2.jpg);
+  background-repeat:no-repeat;
+}
+
+body {
+  text-align:center;
+}
+
+
+.ok {
+  color:blue;
+}
+
+.err {
+  color:red;
+}
+
+h2 {
+  text-align:center;margin:0;padding:2px;
+}
+
+table {
+  margin:2px auto 2px auto;
+  background-color:gray;
+  color : black
+}
+
+td {
+  padding:2px;
+}
+
+table.update tr th {
+  text-align:right;
+}
+
+table.menu {
+  margin-top:10px;
+}
+
+tr.menu {
+  background-color:#D6FFAC;
+}
+
+tr:nth-child(even){
+  background-color:#B4E7F8;
+}
+
+tr:nth-child(odd){
+  background-color:#7CD5F3;
+}
+
+tr:hover{
+  background-color:#1BEE9A;
+}
+
+/* 
+############################
+#          LOGIN           #
+############################
+*/
+
+fieldset.loginForm {
+  width:30%;
+  border:thick double rgb(122,0,145);
+  border-radius:10px;
+  margin:2px auto 2px auto;
+}
+
+fieldset.loginForm legend {
+color : #229631;
+}
+
+table.loginForm {
+  background-color:#08485E;
+  margin:2px auto 2px auto;
+}
+th.loginForm {
+  border-style:none;
+  background-color:#3CB0CD;
+  vertical-align:middle;
+  text-align:left;
+  margin:0;
+  padding:2px;
+}
+th.loginFormCenter {
+  border-style:none;
+  background-color:aqua;
+  vertical-align:middle;
+  text-align:center;
+  margin:0;
+  padding:2px;
+}
+td.loginForm {
+  border-style:none;
+  background-color:#B4E7F8;
+  vertical-align:middle;
+  text-align:left;
+  margin:0;
+  padding:2px;
+}
+
+
+
+/* 
+############################
+#          BUTTON          #
+############################
+*/
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(25, 95, 200);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(156, 28, 195);
+  margin-bottom: 25px;
+}
+
+.button:hover {background-color: rgb(23, 64, 152)}
+
+.button:active {
+  background-color: rgb(25, 95, 200);
+  box-shadow: 0 5px rgb(156, 28, 195);
+  transform: translateY(4px);
+}
+
+/* 
+############################
+#          CONTENT         #
+############################
+*/
+
+#content{
+  position:static;
+}
+
+/* 
+############################
+#       LATT-CONTROL       #
+############################
+*/
+
+#latt-control{
+  position:fixed;
+  margin-left:84%;
+  padding-bottom:15px;
+  width: 16%;
+  color : black;
+  
+}
+
+.subTitle{
+  margin-bottom:15px;
+}
+
+/* 
+############################
+#         USER-INFO       #
+############################
+*/
+
+#user-info{
+  background-color:#1bee9a;
+  margin-bottom:35px;
+}
+
+
+/* 
+############################
+#       CONTROL-PANNEL     #
+############################
+*/
+
+#control-pannel{
+  color:#fff;
+  background-color: #c50000;
+  padding-bottom:15px;
+}
+
+.subTitle{
+  margin-bottom:15px;
+}
+
+#control-pannel > a{
+    color:white;
+}
